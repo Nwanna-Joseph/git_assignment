@@ -1,0 +1,15 @@
+  153  touch AMMI-git/identity.txt
+  154  ls AMMI-git
+  155  cat > AMMI-git/identity.txt
+  156  head AMMI-git/identity.txt
+  157  git init
+  158  git config --global user.email jnwanna@aimsammi.org
+  159  git config --global user.name Nwanna.Joseph
+  160  git config --list
+  161  git add .
+  162  git status
+  163  git commit -m "working on assignment"
+  164  git remote add origin https://github.com/Nwanna-Joseph/git_assignment.git
+  165  git remote -v
+  166  git branch
+  167  git push origin master
